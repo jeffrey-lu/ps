@@ -1,15 +1,70 @@
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
-$btnPrimaryBackground: purple;
-
 @import 'bootstrap';
-body {
-	padding-top: 60px;
-}
 
 @import 'bootstrap-responsive';
 
-.navbar-inner {
-	@include box-shadow(none !important);
-	border: 0;
+#wrapper1 {
+	background: url(http://fc06.deviantart.net/fs70/f/2010/008/9/5/Astronaut_over_Earth_by_BubiMandril.jpg) no-repeat fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	position: relative;
+  	height:850px;
+  	width: 100%;
+  	overflow: hidden;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+}
+
+.center {
+	width: 800px;
+	margin-left: 10%;
+}
+
+#home-text {
+	margin-top: 300px;
+}
+
+#wrapper2 {
+	width: 100%;
+	height: 500px;
+	background: url(http://www.digitaltrends.com/wp-content/uploads/2012/02/ESC_large_ISS030_ISS030-E-53880.jpeg) no-repeat fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	z-index: 1000;
+	position: relative;
+	padding-top: 10px;
+}
+
+#wrapper3 {
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	margin-top: 0;
+	top: 0;
+	position: relative;
+	padding-top: 10px;
+}
+
+#text {
+	text-align: center;
+	font-family: Verdana;
+	margin-top: 170px;
+}
+
+h3 {
+	color: white;
+	font-family: Raleway;
+	font-size: 30px;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: white;
 }
